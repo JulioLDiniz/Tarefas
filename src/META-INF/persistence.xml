@@ -4,6 +4,8 @@
 	
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>br.com.tarefas.model.Tarefa</class>
+		<class>br.com.tarefas.model.Movimentacao</class>
+		<class>br.com.tarefas.model.Cliente</class>
 		<properties>
 			<!-- Propriedades JDBC -->
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
